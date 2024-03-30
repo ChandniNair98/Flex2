@@ -1,0 +1,74 @@
+body{
+    background-color: #eee;
+    margin: 0;
+}
+
+.header{
+    background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    /* this space between creates space between left and right divs so right wala floats to right */
+}
+
+.left{
+    display: flex;
+    gap: 16px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0;
+    padding: 12px;
+    
+}
+
+.logo{
+ 
+    padding: 10px;
+
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.right{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+  
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+  }
+
+.profileimage{
+    border-radius: 50%;
+    background: rebeccapurple;
+    height: 48px;
+    width: 48px;
+}
+
+li {
+    /* this removes the line under our links */
+    padding: 10px;
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 20px;
+  }
